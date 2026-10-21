@@ -1,0 +1,4 @@
+:HL["/International-communication-demo/_next/static/css/2302db0cd5401101.css","style"]
+2:[["children",{"s":"__PAGE__","h":160}]]
+1:[["children",{"s":"_not-found","h":96,"c":"$Q2"}]]
+0:{"b":"8sVTOLJb3PgmGZHj_2KgQ","t":{"t":{"s":"","h":80,"c":"$Q1"}}}
