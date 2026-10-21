@@ -1,0 +1,2456 @@
+{
+  "schemaVersion": "1.1.0",
+  "language": "zh-CN",
+  "updatedOn": "2026-10-20",
+  "scope": "六位学者静态知识库；三位主讲与三位可选拓展。不提供实时多人对话。",
+  "provenanceLabels": {
+    "original_paraphrase": "原著观点转述（非引语）",
+    "later_interpretation": "后人解释",
+    "editorial_interpretation": "本包编辑解释与边界",
+    "teaching_simulation": "当代教学模拟（非真实引语）"
+  },
+  "inputLimitations": [
+    "已读用户提供PRD v1.1和现有项目；原《文字稿1.0》附件尚未获得。",
+    "保留现有张伦等研究数据；不将补充研究替换原证据卡。",
+    "本包为可核查教学编写，不宣称已完成同行学术审稿。"
+  ],
+  "sources": [
+    {
+      "id": "innis-empire",
+      "title": "Empire and Communications",
+      "author": "Harold A. Innis",
+      "year": 1950,
+      "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+      "kind": "primary_text",
+      "locator": "Introduction；Parchment and Paper",
+      "verification": "原著第一版公开转录；未核对扫描版页码，不引用页码。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "innis-bias",
+      "title": "The Bias of Communication",
+      "author": "Harold A. Innis",
+      "year": 1951,
+      "url": "https://www.fadedpage.com/books/20231255/html.php",
+      "kind": "primary_text",
+      "locator": "Preface；The Bias of Communication；A Plea for Time",
+      "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "innis-utp",
+      "title": "The Bias of Communication：新版介绍",
+      "author": "University of Toronto Press",
+      "year": null,
+      "url": "https://utpdistribution.com/9781442689275/the-bias-of-communication/",
+      "kind": "publisher",
+      "locator": "Description：Alexander John Watson的导读说明",
+      "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "mcluhan-media",
+      "title": "Understanding Media: The Extensions of Man",
+      "author": "Marshall McLuhan",
+      "year": 1964,
+      "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+      "kind": "primary_text",
+      "locator": "Chapter 1: The Medium is the Message",
+      "verification": "MIT课程托管第一章节选；不随包再分发原文。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "mcluhan-estate",
+      "title": "Commonly Asked Questions about McLuhan",
+      "author": "The Estate of Marshall McLuhan",
+      "year": null,
+      "url": "https://marshallmcluhan.org/common-questions/",
+      "kind": "estate_explanation",
+      "locator": "关于人的延伸、地球村和媒介环境的问答",
+      "verification": "遗产管理方解释，不全部等同于麦克卢汉原著逐字表述。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "mcluhan-galaxy",
+      "title": "The Gutenberg Galaxy",
+      "author": "University of Toronto Press",
+      "year": 1962,
+      "url": "https://utpdistribution.com/9781442612693/the-gutenberg-galaxy/",
+      "kind": "publisher",
+      "locator": "书目信息",
+      "verification": "已核查多伦多大学出版社后续版本书目；链接展示2011年版本，不混淆原版1962年。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "williams-tv",
+      "title": "Television: Technology and Cultural Form",
+      "author": "Raymond Williams",
+      "year": 1974,
+      "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+      "kind": "primary_text",
+      "locator": "Chapter 1: The Technology and the Society",
+      "verification": "大学课程托管原著第一章，含mobile privatisation；未核对全书页码。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "williams-publisher",
+      "title": "Television: Technology and Cultural Form：介绍与目录",
+      "author": "Routledge",
+      "year": 1974,
+      "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+      "kind": "publisher",
+      "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+      "verification": "页面列后续版2003；首版1974。flow概括另有后续研究支持，未声称已逐页核对原著第四章。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "williams-marxism",
+      "title": "Marxism and Literature",
+      "author": "Raymond Williams",
+      "year": 1977,
+      "url": "https://global.oup.com/academic/product/marxism-and-literature-9780198760610",
+      "kind": "publisher",
+      "locator": "书目信息",
+      "verification": "出版社链接遇到人机验证；书名作者与1977年由Oxford Academic学术文献书目交叉核对，未读取本书原文。",
+      "checkedOn": "2026-10-20",
+      "crossCheckUrl": "https://academic.oup.com/jcmc/article/14/4/790/4583546"
+    },
+    {
+      "id": "uricchio-flow",
+      "title": "Television’s Next Generation: Technology/Interface Culture/Flow",
+      "author": "William Uricchio",
+      "year": 2004,
+      "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+      "kind": "later_research",
+      "locator": "关于Williams及flow、界面和代理的讨论",
+      "verification": "作者MIT托管稿；用于后人解释，不声称Williams研究过今日推荐算法。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "postman-amusing",
+      "title": "Amusing Ourselves to Death",
+      "author": "Neil Postman",
+      "year": 1985,
+      "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+      "kind": "publisher",
+      "locator": "Book Description",
+      "verification": "出版社确认首版1985；链接为2005周年版。仅核查介绍，未声称通读全书。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "postman-technopoly",
+      "title": "Technopoly: The Surrender of Culture to Technology",
+      "author": "Neil Postman",
+      "year": 1992,
+      "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+      "kind": "publisher",
+      "locator": "Book Description",
+      "verification": "已读出版社介绍，页面为1993平装版；1992首版由WorldCat的Knopf馆藏记录交叉核对。",
+      "checkedOn": "2026-10-20",
+      "crossCheckUrl": "https://search.worldcat.org/title/24694343"
+    },
+    {
+      "id": "postman-humanism",
+      "title": "The Humanism of Media Ecology",
+      "author": "Neil Postman",
+      "year": 2000,
+      "url": "https://www.media-ecology.net/publications/MEA_proceedings/v1/postman01.pdf",
+      "kind": "primary_text",
+      "locator": "大会主旨演讲；讨论媒介生态及人文判断",
+      "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "castells-2007",
+      "title": "Communication, Power and Counter-power in the Network Society",
+      "author": "Manuel Castells",
+      "year": 2007,
+      "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+      "kind": "primary_research",
+      "locator": "Abstract及mass self-communication相关讨论",
+      "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "castells-2011",
+      "title": "A Network Theory of Power",
+      "author": "Manuel Castells",
+      "year": 2011,
+      "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+      "kind": "primary_research",
+      "locator": "Abstract：四类权力及programming/switching",
+      "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "castells-rise",
+      "title": "The Rise of the Network Society",
+      "author": "Manuel Castells",
+      "year": 1996,
+      "url": "https://www.wiley.com/en-us/the-rise-of-the-network-society-2nd-edition-with-a-new-preface-p-9781444319514",
+      "kind": "publisher",
+      "locator": "书目信息",
+      "verification": "出版社搜索索引可核查书名作者及1996—1998三部曲说明；页面直读403。链接为后续版。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "castells-power",
+      "title": "Communication Power",
+      "author": "Manuel Castells",
+      "year": 2009,
+      "url": "https://www.oii.ox.ac.uk/news-events/videos/doctoral-seminar-series-the-crisis-of-global-capitalism-towards-a-new-economic-culture/",
+      "kind": "author_event",
+      "locator": "作者研讨书目与介绍",
+      "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "schiller-empire",
+      "title": "Mass Communications and American Empire",
+      "author": "Herbert I. Schiller",
+      "year": 1969,
+      "url": "https://eric.ed.gov/?id=ED060610",
+      "kind": "bibliographic_abstract",
+      "locator": "书目与摘要",
+      "verification": "ERIC条目收录1971版本；不把条目年份当首版。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "schiller-domination",
+      "title": "Communication and Cultural Domination",
+      "author": "Herbert I. Schiller",
+      "year": 1976,
+      "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+      "kind": "publisher",
+      "locator": "书目和章节目录",
+      "verification": "先前已读出版社书目与四章目录，本轮直读403；与ERIC条目交叉核对，未通读全书。",
+      "checkedOn": "2026-10-20"
+    },
+    {
+      "id": "schiller-eric",
+      "title": "Communication and Cultural Domination：书目摘要",
+      "author": "ERIC",
+      "year": 1976,
+      "url": "https://eric.ed.gov/?id=ED135024",
+      "kind": "bibliographic_abstract",
+      "locator": "Abstract：跨国文化依赖、机制与传播政策",
+      "verification": "此前已读摘要，本次访问超时；未声称核对全书原文。",
+      "checkedOn": "2026-10-20"
+    }
+  ],
+  "scholars": [
+    {
+      "id": "innis",
+      "nameZh": "哈罗德·伊尼斯",
+      "nameEn": "Harold A. Innis",
+      "years": "1894—1952",
+      "primary": true,
+      "role": "媒介偏向与知识权力",
+      "eraBackground": {
+        "text": "20世纪中叶，以经济史和帝国组织考察媒介、知识及权力。",
+        "provenance": "original_paraphrase",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "innis-empire",
+            "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+            "locator": "Introduction；Parchment and Paper",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "innis-bias",
+            "url": "https://www.fadedpage.com/books/20231255/html.php",
+            "locator": "Preface；The Bias of Communication；A Plea for Time",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      },
+      "keywords": [
+        "时间／空间偏向",
+        "知识垄断",
+        "媒介平衡"
+      ],
+      "plainExplanation": "石碑方便留给后人，卷轴方便送到远方；还要问，谁掌握书写和传送的办法？",
+      "dossierIds": [
+        "stone"
+      ],
+      "simulatedLine": {
+        "text": "若想保存祖训，耐久很重要；若想通知远方，运输也重要。还要追问谁掌握知识入口。",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "innis-empire",
+            "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+            "locator": "Introduction；Parchment and Paper",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "innis-bias",
+            "url": "https://www.fadedpage.com/books/20231255/html.php",
+            "locator": "Preface；The Bias of Communication；A Plea for Time",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "question": {
+        "text": "一份信息传得远，就能传得久吗？",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "innis-empire",
+            "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+            "locator": "Introduction；Parchment and Paper",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "innis-bias",
+            "url": "https://www.fadedpage.com/books/20231255/html.php",
+            "locator": "Preface；The Bias of Communication；A Plea for Time",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "concepts": [
+        {
+          "id": "time-space",
+          "name": "时间偏向与空间偏向",
+          "academicExplanation": {
+            "text": "时间偏向涉及跨代延续，空间偏向涉及跨域组织。耐久石材与轻便纸草等条件提供不同便利，并与制度安排相连。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-empire",
+                "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+                "locator": "Introduction；Parchment and Paper",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "班级纪念碑能保存多年，却难送到外校；一叠轻便传单能迅速分发，却容易丢失。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-empire",
+                "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+                "locator": "Introduction；Parchment and Paper",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "比较跨境数字档案的长期保存与即时信息的远距分发；数字媒介可兼具两种能力，不能硬分为互斥类别。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-empire",
+                "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+                "locator": "Introduction；Parchment and Paper",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "knowledge-monopoly",
+          "name": "知识垄断",
+          "academicExplanation": {
+            "text": "掌握书写、媒介生产和知识组织的群体可能形成知识控制；垄断与媒介及社会组织有关。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-bias",
+                "url": "https://www.fadedpage.com/books/20231255/html.php",
+                "locator": "Preface；The Bias of Communication；A Plea for Time",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "如果全班只有少数人会读公告、保管资料，其他人就得依赖他们解释规则。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-bias",
+                "url": "https://www.fadedpage.com/books/20231255/html.php",
+                "locator": "Preface；The Bias of Communication；A Plea for Time",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "追问跨国知识入口由谁管理、哪些群体难以获得；这是当代应用，不能直接把平台等同古代祭司。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-bias",
+                "url": "https://www.fadedpage.com/books/20231255/html.php",
+                "locator": "Preface；The Bias of Communication；A Plea for Time",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "balance",
+          "name": "媒介平衡",
+          "academicExplanation": {
+            "text": "伊尼斯关注文明在时间与空间之间的失衡，强调不同传播传统的相互制约，而非单一媒介决定历史。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-empire",
+                "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+                "locator": "Introduction；Parchment and Paper",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "毕业照片既要发到远方，也要备份留给十年后的同学；两种目标需要不同安排。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-empire",
+                "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+                "locator": "Introduction；Parchment and Paper",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "跨境传播除追求覆盖，还要考虑文化记忆、长期存取与多种知识传统。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "innis-empire",
+                "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+                "locator": "Introduction；Parchment and Paper",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        }
+      ],
+      "case": {
+        "title": "留石国的两封信",
+        "kind": "fictional_teaching_case",
+        "situation": {
+          "text": "留石国要把祖训留给百年后的孩子，又要把洪水预警送到远方。学生选择石碑或卷轴。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "innis-empire",
+              "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+              "locator": "Introduction；Parchment and Paper",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            },
+            {
+              "sourceId": "innis-bias",
+              "url": "https://www.fadedpage.com/books/20231255/html.php",
+              "locator": "Preface；The Bias of Communication；A Plea for Time",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "analysis": {
+          "text": "石碑和卷轴各有便利；接着检查抄写能力、道路和管理制度。此为寓言，不是古代史实或材料优劣的普遍定律。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "innis-empire",
+              "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+              "locator": "Introduction；Parchment and Paper",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            },
+            {
+              "sourceId": "innis-bias",
+              "url": "https://www.fadedpage.com/books/20231255/html.php",
+              "locator": "Preface；The Bias of Communication；A Plea for Time",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "prompt": "同一媒介能否同时胜任两种任务？"
+      },
+      "limitations": [
+        {
+          "text": "偏向是相对倾向，不能直接推出帝国兴衰的单一原因。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "innis-empire",
+              "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+              "locator": "Introduction；Parchment and Paper",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "innis-bias",
+              "url": "https://www.fadedpage.com/books/20231255/html.php",
+              "locator": "Preface；The Bias of Communication；A Plea for Time",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        },
+        {
+          "text": "数字文件可远距复制，也可能因格式淘汰或平台关闭而难以长期读取；须另找当代证据。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "innis-empire",
+              "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+              "locator": "Introduction；Parchment and Paper",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "innis-bias",
+              "url": "https://www.fadedpage.com/books/20231255/html.php",
+              "locator": "Preface；The Bias of Communication；A Plea for Time",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        }
+      ],
+      "works": [
+        {
+          "titleZh": "帝国与传播",
+          "titleEn": "Empire and Communications",
+          "year": 1950,
+          "sourceId": "innis-empire",
+          "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        },
+        {
+          "titleZh": "传播的偏向",
+          "titleEn": "The Bias of Communication",
+          "year": 1951,
+          "sourceId": "innis-bias",
+          "url": "https://www.fadedpage.com/books/20231255/html.php",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        }
+      ],
+      "sourceIds": [
+        "innis-empire",
+        "innis-bias"
+      ],
+      "relations": [
+        "innis-mcluhan",
+        "comparison-schiller"
+      ],
+      "sources": [
+        {
+          "id": "innis-empire",
+          "title": "Empire and Communications",
+          "url": "https://www.gutenberg.ca/ebooks/innis-empire/innis-empire-00-h.html",
+          "kind": "primary_text",
+          "verification": "原著第一版公开转录；未核对扫描版页码，不引用页码。"
+        },
+        {
+          "id": "innis-bias",
+          "title": "The Bias of Communication",
+          "url": "https://www.fadedpage.com/books/20231255/html.php",
+          "kind": "primary_text",
+          "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。"
+        }
+      ]
+    },
+    {
+      "id": "mcluhan",
+      "nameZh": "马歇尔·麦克卢汉",
+      "nameEn": "Marshall McLuhan",
+      "years": "1911—1980",
+      "primary": true,
+      "role": "媒介形式与感知环境",
+      "eraBackground": {
+        "text": "20世纪60年代，广播电视等电子媒介改变社会连接与感知经验。",
+        "provenance": "original_paraphrase",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "mcluhan-media",
+            "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+            "locator": "Chapter 1: The Medium is the Message",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "mcluhan-estate",
+            "url": "https://marshallmcluhan.org/common-questions/",
+            "locator": "关于人的延伸、地球村和媒介环境的问答",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "williams-publisher",
+            "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+            "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      },
+      "keywords": [
+        "媒介即讯息",
+        "人的延伸",
+        "地球村"
+      ],
+      "plainExplanation": "同样介绍春节，长信与短视频会让你以不同节奏、感官和方式参与；变化也发生在交往关系中。",
+      "dossierIds": [
+        "river"
+      ],
+      "simulatedLine": {
+        "text": "春节视频改变了远方人接触文化的速度与方式。别只看视频说什么，也看这种媒介怎样组织我们的交往。",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "mcluhan-media",
+            "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+            "locator": "Chapter 1: The Medium is the Message",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "mcluhan-estate",
+            "url": "https://marshallmcluhan.org/common-questions/",
+            "locator": "关于人的延伸、地球村和媒介环境的问答",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "williams-publisher",
+            "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+            "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "question": {
+        "text": "同样的春节故事，用书信和短视频讲，会改变什么？",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "mcluhan-media",
+            "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+            "locator": "Chapter 1: The Medium is the Message",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "mcluhan-estate",
+            "url": "https://marshallmcluhan.org/common-questions/",
+            "locator": "关于人的延伸、地球村和媒介环境的问答",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "williams-publisher",
+            "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+            "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "concepts": [
+        {
+          "id": "medium-message",
+          "name": "媒介即讯息",
+          "academicExplanation": {
+            "text": "媒介带来的讯息包括人类交往的规模、速度与模式变化，分析不能只停留在所传内容。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-media",
+                "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+                "locator": "Chapter 1: The Medium is the Message",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "以前要等海外笔友回信，现在可看直播并即时留言；改变的不只是说话内容。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-media",
+                "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+                "locator": "Chapter 1: The Medium is the Message",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "跨国传播从定时广播转为即时互动，可能改变参与和组织方式；具体结果需实证检验。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-media",
+                "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+                "locator": "Chapter 1: The Medium is the Message",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "extensions",
+          "name": "人的延伸",
+          "academicExplanation": {
+            "text": "媒介被视为人的身体、感官或能力的延伸；其作用也涉及整体经验和社会关系的重组。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-media",
+                "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+                "locator": "Chapter 1: The Medium is the Message",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "话筒把声音送得更远，但使用话筒也改变谁能发言、大家怎样轮流说话。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-media",
+                "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+                "locator": "Chapter 1: The Medium is the Message",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "实时影像把远方现场带入日常；不能仅据画面可见就认定观众理解了文化背景。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-media",
+                "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+                "locator": "Chapter 1: The Medium is the Message",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "village",
+          "name": "地球村",
+          "academicExplanation": {
+            "text": "电子连接使遥远事件进入共同的即时经验；连接紧密不等于认同一致或冲突消失。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-estate",
+                "url": "https://marshallmcluhan.org/common-questions/",
+                "locator": "关于人的延伸、地球村和媒介环境的问答",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "几个国家的同学同时看比赛，能一起欢呼，也会在同一条评论里争执。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-estate",
+                "url": "https://marshallmcluhan.org/common-questions/",
+                "locator": "关于人的延伸、地球村和媒介环境的问答",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "全球共同关注并不自动带来平等与互相理解，需要分析语境和权力。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "mcluhan-estate",
+                "url": "https://marshallmcluhan.org/common-questions/",
+                "locator": "关于人的延伸、地球村和媒介环境的问答",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        }
+      ],
+      "case": {
+        "title": "同一个春节，两种讲述",
+        "kind": "fictional_teaching_case",
+        "situation": {
+          "text": "小林给海外同学发一封解释习俗的长信，又发一段15秒包饺子视频。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "mcluhan-media",
+              "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+              "locator": "Chapter 1: The Medium is the Message",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "analysis": {
+          "text": "比较阅读、视听与反馈节奏，再问即时转发和陌生观众参与怎样改变交流；不把媒介分析缩成“视频更好看”。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "mcluhan-media",
+              "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+              "locator": "Chapter 1: The Medium is the Message",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "prompt": "看懂包饺子的动作，就等于理解春节吗？"
+      },
+      "limitations": [
+        {
+          "text": "媒介形式提供分析起点，不能替代所有权、制度、语言和受众研究。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "mcluhan-media",
+              "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+              "locator": "Chapter 1: The Medium is the Message",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "mcluhan-estate",
+              "url": "https://marshallmcluhan.org/common-questions/",
+              "locator": "关于人的延伸、地球村和媒介环境的问答",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "williams-publisher",
+              "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+              "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        },
+        {
+          "text": "不能把地球村等同全球和谐，也不能用旧冷热分类给今天平台简单打分。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "mcluhan-media",
+              "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+              "locator": "Chapter 1: The Medium is the Message",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "mcluhan-estate",
+              "url": "https://marshallmcluhan.org/common-questions/",
+              "locator": "关于人的延伸、地球村和媒介环境的问答",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "williams-publisher",
+              "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+              "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        }
+      ],
+      "works": [
+        {
+          "titleZh": "理解媒介：论人的延伸",
+          "titleEn": "Understanding Media: The Extensions of Man",
+          "year": 1964,
+          "sourceId": "mcluhan-media",
+          "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        },
+        {
+          "titleZh": "古登堡星汉",
+          "titleEn": "The Gutenberg Galaxy",
+          "year": 1962,
+          "sourceId": "mcluhan-galaxy",
+          "url": "https://utpdistribution.com/9781442612693/the-gutenberg-galaxy/",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        }
+      ],
+      "sourceIds": [
+        "mcluhan-media",
+        "mcluhan-estate",
+        "williams-publisher"
+      ],
+      "relations": [
+        "innis-mcluhan",
+        "williams-mcluhan",
+        "influence-postman",
+        "comparison-castells"
+      ],
+      "sources": [
+        {
+          "id": "mcluhan-media",
+          "title": "Understanding Media: The Extensions of Man",
+          "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+          "kind": "primary_text",
+          "verification": "MIT课程托管第一章节选；不随包再分发原文。"
+        },
+        {
+          "id": "mcluhan-estate",
+          "title": "Commonly Asked Questions about McLuhan",
+          "url": "https://marshallmcluhan.org/common-questions/",
+          "kind": "estate_explanation",
+          "verification": "遗产管理方解释，不全部等同于麦克卢汉原著逐字表述。"
+        },
+        {
+          "id": "williams-publisher",
+          "title": "Television: Technology and Cultural Form：介绍与目录",
+          "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+          "kind": "publisher",
+          "verification": "页面列后续版2003；首版1974。flow概括另有后续研究支持，未声称已逐页核对原著第四章。"
+        }
+      ]
+    },
+    {
+      "id": "williams",
+      "nameZh": "雷蒙德·威廉斯",
+      "nameEn": "Raymond Williams",
+      "years": "1921—1988",
+      "primary": true,
+      "role": "技术的社会形成与文化实践",
+      "eraBackground": {
+        "text": "20世纪70年代，以电视的发展和使用批评单向技术决定论。",
+        "provenance": "original_paraphrase",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "williams-tv",
+            "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+            "locator": "Chapter 1: The Technology and the Society",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "williams-publisher",
+            "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+            "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "uricchio-flow",
+            "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+            "locator": "关于Williams及flow、界面和代理的讨论",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      },
+      "keywords": [
+        "技术的社会形成",
+        "流",
+        "移动的私人化"
+      ],
+      "plainExplanation": "同样能发视频，有人解释习俗，有人追求广告收入；平台规则和社会需要会影响技术如何被使用。",
+      "dossierIds": [
+        "river"
+      ],
+      "simulatedLine": {
+        "text": "相似技术可以有不同用途。除了视频形式，还要看谁投资、怎样分发、服务什么需要，以及观众怎样使用。",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "williams-tv",
+            "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+            "locator": "Chapter 1: The Technology and the Society",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "williams-publisher",
+            "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+            "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "uricchio-flow",
+            "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+            "locator": "关于Williams及flow、界面和代理的讨论",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "question": {
+        "text": "同样的技术，为什么会形成不同的传播结果？",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "williams-tv",
+            "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+            "locator": "Chapter 1: The Technology and the Society",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "williams-publisher",
+            "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+            "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "uricchio-flow",
+            "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+            "locator": "关于Williams及flow、界面和代理的讨论",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "concepts": [
+        {
+          "id": "social-shaping",
+          "name": "技术的社会形成",
+          "academicExplanation": {
+            "text": "研究、发明与采用具有社会需要和利益背景。技术有实际作用，但不能脱离制度和使用实践解释结果。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-tv",
+                "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+                "locator": "Chapter 1: The Technology and the Society",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "学校用视频征集作业，商店用它卖货；同一摄像功能服务不同目标。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-tv",
+                "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+                "locator": "Chapter 1: The Technology and the Society",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "比较公共文化机构与商业平台怎样组织跨境内容，不能仅用同为视频解释其差别。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-tv",
+                "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+                "locator": "Chapter 1: The Technology and the Society",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "flow",
+          "name": "流（flow）",
+          "academicExplanation": {
+            "text": "威廉斯的“流”概念将节目、广告和衔接形成的连续观看经验作为分析对象。此处据出版社目录与后续研究概括，未逐页核对原著第四章。",
+            "provenance": "later_interpretation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-publisher",
+                "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+                "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+                "supports": "该条理论概括或解释"
+              },
+              {
+                "sourceId": "uricchio-flow",
+                "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+                "locator": "关于Williams及flow、界面和代理的讨论",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "原本只想看一个节目，却被预告和广告一路带到下一段内容。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-publisher",
+                "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+                "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              },
+              {
+                "sourceId": "uricchio-flow",
+                "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+                "locator": "关于Williams及flow、界面和代理的讨论",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "将该问题拓展到跨国推荐流时，要另查算法、界面和商业安排；不是威廉斯对当代算法的原始结论。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-publisher",
+                "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+                "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              },
+              {
+                "sourceId": "uricchio-flow",
+                "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+                "locator": "关于Williams及flow、界面和代理的讨论",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "mobile-privatisation",
+          "name": "移动的私人化",
+          "academicExplanation": {
+            "text": "这一概念联系现代社会流动性与以家庭为中心的私人生活，广播将外部世界送进家庭，回应特定社会条件。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-tv",
+                "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+                "locator": "Chapter 1: The Technology and the Society",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "人坐在家里，新闻和节目把远方带进客厅；这不等于手里拿着移动电话。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-tv",
+                "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+                "locator": "Chapter 1: The Technology and the Society",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "家庭里的跨国观看与公共活动、人口流动如何相连，可作为研究问题。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "williams-tv",
+                "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+                "locator": "Chapter 1: The Technology and the Society",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        }
+      ],
+      "case": {
+        "title": "世界之河的两种安排",
+        "kind": "fictional_teaching_case",
+        "situation": {
+          "text": "同样一段春节视频，文化社团希望观众理解习俗，商家希望观众点击购买。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "williams-tv",
+              "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+              "locator": "Chapter 1: The Technology and the Society",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            },
+            {
+              "sourceId": "uricchio-flow",
+              "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+              "locator": "关于Williams及flow、界面和代理的讨论",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "analysis": {
+          "text": "比较目标、资金、编排和互动安排；不能断言技术本身必然产生其中一种结果。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "williams-tv",
+              "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+              "locator": "Chapter 1: The Technology and the Society",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            },
+            {
+              "sourceId": "uricchio-flow",
+              "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+              "locator": "关于Williams及flow、界面和代理的讨论",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "prompt": "要判断差别来自哪里，还需观察哪些规则与使用行为？"
+      },
+      "limitations": [
+        {
+          "text": "反对单向技术决定论，不等于认为技术没有物质约束或社会后果。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "williams-tv",
+              "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+              "locator": "Chapter 1: The Technology and the Society",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "williams-publisher",
+              "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+              "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "uricchio-flow",
+              "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+              "locator": "关于Williams及flow、界面和代理的讨论",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        },
+        {
+          "text": "从广播电视迁移到个性化推荐，需要增加新的技术和制度证据。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "williams-tv",
+              "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+              "locator": "Chapter 1: The Technology and the Society",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "williams-publisher",
+              "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+              "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "uricchio-flow",
+              "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+              "locator": "关于Williams及flow、界面和代理的讨论",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        }
+      ],
+      "works": [
+        {
+          "titleZh": "电视：技术与文化形式",
+          "titleEn": "Television: Technology and Cultural Form",
+          "year": 1974,
+          "sourceId": "williams-publisher",
+          "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        },
+        {
+          "titleZh": "马克思主义与文学",
+          "titleEn": "Marxism and Literature",
+          "year": 1977,
+          "sourceId": "williams-marxism",
+          "url": "https://global.oup.com/academic/product/marxism-and-literature-9780198760610",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        }
+      ],
+      "sourceIds": [
+        "williams-tv",
+        "williams-publisher",
+        "uricchio-flow"
+      ],
+      "relations": [
+        "williams-mcluhan",
+        "comparison-castells",
+        "comparison-schiller"
+      ],
+      "sources": [
+        {
+          "id": "williams-tv",
+          "title": "Television: Technology and Cultural Form",
+          "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+          "kind": "primary_text",
+          "verification": "大学课程托管原著第一章，含mobile privatisation；未核对全书页码。"
+        },
+        {
+          "id": "williams-publisher",
+          "title": "Television: Technology and Cultural Form：介绍与目录",
+          "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+          "kind": "publisher",
+          "verification": "页面列后续版2003；首版1974。flow概括另有后续研究支持，未声称已逐页核对原著第四章。"
+        },
+        {
+          "id": "uricchio-flow",
+          "title": "Television’s Next Generation: Technology/Interface Culture/Flow",
+          "url": "https://web.mit.edu/uricchio/Public/pdfs/pdfs/flow%20edited.pdf",
+          "kind": "later_research",
+          "verification": "作者MIT托管稿；用于后人解释，不声称Williams研究过今日推荐算法。"
+        }
+      ]
+    },
+    {
+      "id": "postman",
+      "nameZh": "尼尔·波兹曼",
+      "nameEn": "Neil Postman",
+      "years": "1931—2003",
+      "primary": false,
+      "role": "媒介生态与技术文化批判",
+      "eraBackground": {
+        "text": "电视成为重要公共媒介、技术进一步融入社会生活的时期。",
+        "provenance": "original_paraphrase",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "postman-amusing",
+            "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+            "locator": "Book Description",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "postman-technopoly",
+            "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+            "locator": "Book Description",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "postman-humanism",
+            "url": "https://www.media-ecology.net/publications/MEA_proceedings/v1/postman01.pdf",
+            "locator": "大会主旨演讲；讨论媒介生态及人文判断",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      },
+      "keywords": [
+        "媒介生态",
+        "娱乐化公共话语",
+        "技术垄断"
+      ],
+      "plainExplanation": "当重要的事都要讲得像节目一样有趣，我们会不会只问好不好看，忘了问说得对不对？",
+      "dossierIds": [
+        "river",
+        "mirror"
+      ],
+      "simulatedLine": {
+        "text": "大家讨论哪条视频传播最广，却忘了问：当一切争夺注意力，公共讨论和文化理解会变成什么样？",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "postman-amusing",
+            "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+            "locator": "Book Description",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "postman-technopoly",
+            "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+            "locator": "Book Description",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "postman-humanism",
+            "url": "https://www.media-ecology.net/publications/MEA_proceedings/v1/postman01.pdf",
+            "locator": "大会主旨演讲；讨论媒介生态及人文判断",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "question": {
+        "text": "当国际新闻被剪成十五秒，它会更容易理解，还是可能失去重要背景？",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "postman-amusing",
+            "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+            "locator": "Book Description",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "postman-technopoly",
+            "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+            "locator": "Book Description",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "postman-humanism",
+            "url": "https://www.media-ecology.net/publications/MEA_proceedings/v1/postman01.pdf",
+            "locator": "大会主旨演讲；讨论媒介生态及人文判断",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "concepts": [
+        {
+          "id": "public-discourse",
+          "name": "娱乐化的公共话语",
+          "academicExplanation": {
+            "text": "《娱乐至死》批评电视的娱乐要求进入政治、新闻、教育等公共话语的组织方式。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "postman-amusing",
+                "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+                "locator": "Book Description",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "一段国际新闻只剩搞笑表情和音乐，你记住了笑点，却不知道事情的前因后果。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "postman-amusing",
+                "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+                "locator": "Book Description",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "将其用于短视频是当代类比；需检验具体内容和观看实践，不能说所有短内容都妨碍理解。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "postman-amusing",
+                "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+                "locator": "Book Description",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "technopoly",
+          "name": "技术垄断（Technopoly）",
+          "academicExplanation": {
+            "text": "技术垄断在此是技术取得文化权威的批判概念，不能仅理解为一家技术公司垄断市场。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "postman-technopoly",
+                "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+                "locator": "Book Description",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "班级只按软件分数判断作文好坏，大家不再讨论文章想表达什么。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "postman-technopoly",
+                "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+                "locator": "Book Description",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "讨论把AI输出当天然权威的风险，同时保留人工核验与不同知识传统。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "postman-technopoly",
+                "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+                "locator": "Book Description",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        }
+      ],
+      "case": {
+        "title": "有趣的新闻，缺少的背景",
+        "kind": "fictional_teaching_case",
+        "situation": {
+          "text": "学生看完15秒国际新闻剪辑后能复述笑点，却说不清事件经过。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "postman-amusing",
+              "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+              "locator": "Book Description",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "analysis": {
+          "text": "这是编写的教学场景，用于比较吸引注意和提供解释的目标，不是关于所有短视频的实测结果。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "postman-amusing",
+              "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+              "locator": "Book Description",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "prompt": "怎样让短内容同时提供背景与可核查出处？"
+      },
+      "limitations": [
+        {
+          "text": "主要背景是电视时代公共话语；对TikTok和生成式AI的表述均为本包推演。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "postman-amusing",
+              "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+              "locator": "Book Description",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "postman-technopoly",
+              "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+              "locator": "Book Description",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "postman-humanism",
+              "url": "https://www.media-ecology.net/publications/MEA_proceedings/v1/postman01.pdf",
+              "locator": "大会主旨演讲；讨论媒介生态及人文判断",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        },
+        {
+          "text": "不能把批判简化为反对一切娱乐或一切技术；须检查具体公共讨论的质量。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "postman-amusing",
+              "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+              "locator": "Book Description",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "postman-technopoly",
+              "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+              "locator": "Book Description",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "postman-humanism",
+              "url": "https://www.media-ecology.net/publications/MEA_proceedings/v1/postman01.pdf",
+              "locator": "大会主旨演讲；讨论媒介生态及人文判断",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        }
+      ],
+      "works": [
+        {
+          "titleZh": "娱乐至死",
+          "titleEn": "Amusing Ourselves to Death",
+          "year": 1985,
+          "sourceId": "postman-amusing",
+          "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        },
+        {
+          "titleZh": "技术垄断",
+          "titleEn": "Technopoly: The Surrender of Culture to Technology",
+          "year": 1992,
+          "sourceId": "postman-technopoly",
+          "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        }
+      ],
+      "sourceIds": [
+        "postman-amusing",
+        "postman-technopoly",
+        "postman-humanism"
+      ],
+      "relations": [
+        "influence-postman"
+      ],
+      "sources": [
+        {
+          "id": "postman-amusing",
+          "title": "Amusing Ourselves to Death",
+          "url": "https://www.penguinrandomhouse.com/books/297276/amusing-ourselves-to-death-by-neil-postman/",
+          "kind": "publisher",
+          "verification": "出版社确认首版1985；链接为2005周年版。仅核查介绍，未声称通读全书。"
+        },
+        {
+          "id": "postman-technopoly",
+          "title": "Technopoly: The Surrender of Culture to Technology",
+          "url": "https://www.penguinrandomhouse.com/books/132784/technopoly-by-neil-postman/",
+          "kind": "publisher",
+          "verification": "已读出版社介绍，页面为1993平装版；1992首版由WorldCat的Knopf馆藏记录交叉核对。",
+          "crossCheckUrl": "https://search.worldcat.org/title/24694343"
+        },
+        {
+          "id": "postman-humanism",
+          "title": "The Humanism of Media Ecology",
+          "url": "https://www.media-ecology.net/publications/MEA_proceedings/v1/postman01.pdf",
+          "kind": "primary_text",
+          "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。"
+        }
+      ]
+    },
+    {
+      "id": "castells",
+      "nameZh": "曼纽尔·卡斯特尔斯",
+      "nameEn": "Manuel Castells",
+      "years": "1942—",
+      "primary": false,
+      "role": "网络社会与传播权力",
+      "eraBackground": {
+        "text": "20世纪90年代以来，互联网扩展与全球化网络兴起。",
+        "provenance": "original_paraphrase",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "castells-2007",
+            "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+            "locator": "Abstract及mass self-communication相关讨论",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "castells-2011",
+            "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+            "locator": "Abstract：四类权力及programming/switching",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "castells-power",
+            "url": "https://www.oii.ox.ac.uk/news-events/videos/doctoral-seminar-series-the-crisis-of-global-capitalism-towards-a-new-economic-culture/",
+            "locator": "作者研讨书目与介绍",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      },
+      "keywords": [
+        "网络社会",
+        "传播权力",
+        "大规模自我传播"
+      ],
+      "plainExplanation": "普通人也能发布面向全球的视频，但能上传，不代表拥有一样的影响力；连接和关键节点仍然重要。",
+      "dossierIds": [
+        "river",
+        "mirror"
+      ],
+      "simulatedLine": {
+        "text": "世界之河让普通人有机会跨国发声，但网络如何组织连接，谁能影响关键节点与信息流向？",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "castells-2007",
+            "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+            "locator": "Abstract及mass self-communication相关讨论",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "castells-2011",
+            "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+            "locator": "Abstract：四类权力及programming/switching",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "castells-power",
+            "url": "https://www.oii.ox.ac.uk/news-events/videos/doctoral-seminar-series-the-crisis-of-global-capitalism-towards-a-new-economic-culture/",
+            "locator": "作者研讨书目与介绍",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "question": {
+        "text": "人人都能上传视频，就意味着人人拥有同样的全球影响力吗？",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "castells-2007",
+            "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+            "locator": "Abstract及mass self-communication相关讨论",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "castells-2011",
+            "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+            "locator": "Abstract：四类权力及programming/switching",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "castells-power",
+            "url": "https://www.oii.ox.ac.uk/news-events/videos/doctoral-seminar-series-the-crisis-of-global-capitalism-towards-a-new-economic-culture/",
+            "locator": "作者研讨书目与介绍",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "concepts": [
+        {
+          "id": "mass-self",
+          "name": "大规模自我传播",
+          "academicExplanation": {
+            "text": "传播可由主体自我生产、指向和选择，并潜在触及全球受众，同时处于更广的传播网络之中。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "castells-2007",
+                "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+                "locator": "Abstract及mass self-communication相关讨论",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "不必先得到电视台邀请，你也能上传春节视频；但它不一定被世界各地看见。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "castells-2007",
+                "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+                "locator": "Abstract及mass self-communication相关讨论",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "区分全球发布可能性、实际可见度与组织资源，不把个人发声直接等同传播平等。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "castells-2007",
+                "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+                "locator": "Abstract及mass self-communication相关讨论",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "network-power",
+          "name": "网络中的权力",
+          "academicExplanation": {
+            "text": "2011年论文区分纳入/排除、网络规则、网络内部行动者关系，以及编程和连接网络的权力。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "castells-2011",
+                "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+                "locator": "Abstract：四类权力及programming/switching",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "社团群里，入群资格、群规、成员影响力和能否联结其他群，是不同问题。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "castells-2011",
+                "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+                "locator": "Abstract：四类权力及programming/switching",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "审视平台标准和跨国网络连接；中文“网络化权力”不应抹掉四种英文概念差别。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "castells-2011",
+                "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+                "locator": "Abstract：四类权力及programming/switching",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        }
+      ],
+      "case": {
+        "title": "同样上传，不同可见度",
+        "kind": "fictional_teaching_case",
+        "situation": {
+          "text": "两位学生都上传春节视频，一位有社团跨国转发网络，另一位没有。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "castells-2007",
+              "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+              "locator": "Abstract及mass self-communication相关讨论",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            },
+            {
+              "sourceId": "castells-2011",
+              "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+              "locator": "Abstract：四类权力及programming/switching",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "analysis": {
+          "text": "可比较连接资源和传播路径；不预设算法是唯一原因，也不捏造播放量数据。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "castells-2007",
+              "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+              "locator": "Abstract及mass self-communication相关讨论",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            },
+            {
+              "sourceId": "castells-2011",
+              "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+              "locator": "Abstract：四类权力及programming/switching",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "prompt": "要比较两人的影响力，还需要哪些实际数据？"
+      },
+      "limitations": [
+        {
+          "text": "可发布不等于被看见，网络权力也不等于算法单独决定一切。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "castells-2007",
+              "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+              "locator": "Abstract及mass self-communication相关讨论",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "castells-2011",
+              "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+              "locator": "Abstract：四类权力及programming/switching",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "castells-power",
+              "url": "https://www.oii.ox.ac.uk/news-events/videos/doctoral-seminar-series-the-crisis-of-global-capitalism-towards-a-new-economic-culture/",
+              "locator": "作者研讨书目与介绍",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        },
+        {
+          "text": "网络社会是一种社会组织分析，不能缩成“所有变化由互联网技术自动引发”。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "castells-2007",
+              "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+              "locator": "Abstract及mass self-communication相关讨论",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "castells-2011",
+              "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+              "locator": "Abstract：四类权力及programming/switching",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "castells-power",
+              "url": "https://www.oii.ox.ac.uk/news-events/videos/doctoral-seminar-series-the-crisis-of-global-capitalism-towards-a-new-economic-culture/",
+              "locator": "作者研讨书目与介绍",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        }
+      ],
+      "works": [
+        {
+          "titleZh": "网络社会的崛起",
+          "titleEn": "The Rise of the Network Society",
+          "year": 1996,
+          "sourceId": "castells-rise",
+          "url": "https://www.wiley.com/en-us/the-rise-of-the-network-society-2nd-edition-with-a-new-preface-p-9781444319514",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        },
+        {
+          "titleZh": "传播权力",
+          "titleEn": "Communication Power",
+          "year": 2009,
+          "sourceId": "castells-power",
+          "url": "https://www.oii.ox.ac.uk/news-events/videos/doctoral-seminar-series-the-crisis-of-global-capitalism-towards-a-new-economic-culture/",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        }
+      ],
+      "sourceIds": [
+        "castells-2007",
+        "castells-2011",
+        "castells-power"
+      ],
+      "relations": [
+        "comparison-castells"
+      ],
+      "sources": [
+        {
+          "id": "castells-2007",
+          "title": "Communication, Power and Counter-power in the Network Society",
+          "url": "https://ijoc.org/index.php/ijoc/article/view/46",
+          "kind": "primary_research",
+          "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。"
+        },
+        {
+          "id": "castells-2011",
+          "title": "A Network Theory of Power",
+          "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+          "kind": "primary_research",
+          "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。"
+        },
+        {
+          "id": "castells-power",
+          "title": "Communication Power",
+          "url": "https://www.oii.ox.ac.uk/news-events/videos/doctoral-seminar-series-the-crisis-of-global-capitalism-towards-a-new-economic-culture/",
+          "kind": "author_event",
+          "verification": "已核查链接页面或章节；中文内容为概括，不是逐字引语。"
+        }
+      ]
+    },
+    {
+      "id": "schiller",
+      "nameZh": "赫伯特·席勒",
+      "nameEn": "Herbert I. Schiller",
+      "years": "1919—2000",
+      "primary": false,
+      "role": "国际传播政治经济学与文化支配",
+      "eraBackground": {
+        "text": "冷战时期美国传媒和跨国企业扩张，发展中国家关注信息依赖与文化自主。",
+        "provenance": "original_paraphrase",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "schiller-empire",
+            "url": "https://eric.ed.gov/?id=ED060610",
+            "locator": "书目与摘要",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "schiller-domination",
+            "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+            "locator": "书目和章节目录",
+            "supports": "该条理论概括或解释"
+          },
+          {
+            "sourceId": "schiller-eric",
+            "url": "https://eric.ed.gov/?id=ED135024",
+            "locator": "Abstract：跨国文化依赖、机制与传播政策",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      },
+      "keywords": [
+        "文化帝国主义",
+        "跨国传媒所有权",
+        "信息依附"
+      ],
+      "plainExplanation": "故事能否传遍世界，也取决于谁掌握资金、媒体和渠道；流行本身并不能证明文化支配。",
+      "dossierIds": [
+        "river",
+        "mirror"
+      ],
+      "simulatedLine": {
+        "text": "别只问内容能否漂到国外，更要问河流是谁建的、谁掌握传播资源，以及哪些文化更容易被世界听见。",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "schiller-empire",
+            "url": "https://eric.ed.gov/?id=ED060610",
+            "locator": "书目与摘要",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "schiller-domination",
+            "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+            "locator": "书目和章节目录",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "schiller-eric",
+            "url": "https://eric.ed.gov/?id=ED135024",
+            "locator": "Abstract：跨国文化依赖、机制与传播政策",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "question": {
+        "text": "一种文化作品全球流行，就必然意味着文化支配吗？还缺哪些证据？",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "schiller-empire",
+            "url": "https://eric.ed.gov/?id=ED060610",
+            "locator": "书目与摘要",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "schiller-domination",
+            "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+            "locator": "书目和章节目录",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "schiller-eric",
+            "url": "https://eric.ed.gov/?id=ED135024",
+            "locator": "Abstract：跨国文化依赖、机制与传播政策",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      },
+      "concepts": [
+        {
+          "id": "cultural-domination",
+          "name": "文化支配与文化帝国主义",
+          "academicExplanation": {
+            "text": "席勒关注跨国信息和文化关系中的结构性依赖，将传播体系与经济政治力量联系起来。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "schiller-domination",
+                "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+                "locator": "书目和章节目录",
+                "supports": "该条理论概括或解释"
+              },
+              {
+                "sourceId": "schiller-eric",
+                "url": "https://eric.ed.gov/?id=ED135024",
+                "locator": "Abstract：跨国文化依赖、机制与传播政策",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "如果文化节的展示场地、经费和传播入口长期由少数外部机构控制，就该研究这种依赖。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "schiller-domination",
+                "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+                "locator": "书目和章节目录",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              },
+              {
+                "sourceId": "schiller-eric",
+                "url": "https://eric.ed.gov/?id=ED135024",
+                "locator": "Abstract：跨国文化依赖、机制与传播政策",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "需检查资源控制、政策和经济关系，不能从一部外国电影受欢迎直接推出文化帝国主义。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "schiller-domination",
+                "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+                "locator": "书目和章节目录",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              },
+              {
+                "sourceId": "schiller-eric",
+                "url": "https://eric.ed.gov/?id=ED135024",
+                "locator": "Abstract：跨国文化依赖、机制与传播政策",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        },
+        {
+          "id": "ownership",
+          "name": "所有权与传播资源",
+          "academicExplanation": {
+            "text": "考察传媒及传播设施的组织与资源分配，有助于解释哪些声音更容易跨国流通。",
+            "provenance": "original_paraphrase",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "schiller-empire",
+                "url": "https://eric.ed.gov/?id=ED060610",
+                "locator": "书目与摘要",
+                "supports": "该条理论概括或解释"
+              },
+              {
+                "sourceId": "schiller-eric",
+                "url": "https://eric.ed.gov/?id=ED135024",
+                "locator": "Abstract：跨国文化依赖、机制与传播政策",
+                "supports": "该条理论概括或解释"
+              }
+            ]
+          },
+          "plainExplanation": {
+            "text": "会讲故事的人不一定买得起广告或拥有发行渠道；资源差异影响被听见的机会。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "schiller-empire",
+                "url": "https://eric.ed.gov/?id=ED060610",
+                "locator": "书目与摘要",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              },
+              {
+                "sourceId": "schiller-eric",
+                "url": "https://eric.ed.gov/?id=ED135024",
+                "locator": "Abstract：跨国文化依赖、机制与传播政策",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          },
+          "internationalApplication": {
+            "text": "调查平台和文化产业的所有权、收益及政策安排；AI知识入口是当代教学对照。",
+            "provenance": "teaching_simulation",
+            "isQuotation": false,
+            "citations": [
+              {
+                "sourceId": "schiller-empire",
+                "url": "https://eric.ed.gov/?id=ED060610",
+                "locator": "书目与摘要",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              },
+              {
+                "sourceId": "schiller-eric",
+                "url": "https://eric.ed.gov/?id=ED135024",
+                "locator": "Abstract：跨国文化依赖、机制与传播政策",
+                "supports": "理论依据；不证明虚构案例实际发生"
+              }
+            ]
+          }
+        }
+      ],
+      "case": {
+        "title": "谁能把故事送进世界之河",
+        "kind": "fictional_teaching_case",
+        "situation": {
+          "text": "两个文化社团各有一个故事，但可获得的翻译经费、发行渠道和推广资源不同。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "schiller-domination",
+              "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+              "locator": "书目和章节目录",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            },
+            {
+              "sourceId": "schiller-eric",
+              "url": "https://eric.ed.gov/?id=ED135024",
+              "locator": "Abstract：跨国文化依赖、机制与传播政策",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "analysis": {
+          "text": "先调查资源如何分配、是否形成依赖，再研究受众如何理解；不把观众当作全无选择的被动者。",
+          "provenance": "teaching_simulation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "schiller-domination",
+              "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+              "locator": "书目和章节目录",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            },
+            {
+              "sourceId": "schiller-eric",
+              "url": "https://eric.ed.gov/?id=ED135024",
+              "locator": "Abstract：跨国文化依赖、机制与传播政策",
+              "supports": "理论依据；不证明虚构案例实际发生"
+            }
+          ]
+        },
+        "prompt": "除了观看次数，还要搜集什么才能讨论支配？"
+      },
+      "limitations": [
+        {
+          "text": "不能把所有受众视为被动，也不能把任何跨境流行都当成支配的证明。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "schiller-empire",
+              "url": "https://eric.ed.gov/?id=ED060610",
+              "locator": "书目与摘要",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "schiller-domination",
+              "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+              "locator": "书目和章节目录",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "schiller-eric",
+              "url": "https://eric.ed.gov/?id=ED135024",
+              "locator": "Abstract：跨国文化依赖、机制与传播政策",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        },
+        {
+          "text": "对平台和模型的论述是当代迁移，不是席勒本人研究过生成式AI。",
+          "provenance": "editorial_interpretation",
+          "isQuotation": false,
+          "citations": [
+            {
+              "sourceId": "schiller-empire",
+              "url": "https://eric.ed.gov/?id=ED060610",
+              "locator": "书目与摘要",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "schiller-domination",
+              "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+              "locator": "书目和章节目录",
+              "supports": "该条理论概括或解释"
+            },
+            {
+              "sourceId": "schiller-eric",
+              "url": "https://eric.ed.gov/?id=ED135024",
+              "locator": "Abstract：跨国文化依赖、机制与传播政策",
+              "supports": "该条理论概括或解释"
+            }
+          ]
+        }
+      ],
+      "works": [
+        {
+          "titleZh": "大众传播与美利坚帝国",
+          "titleEn": "Mass Communications and American Empire",
+          "year": 1969,
+          "sourceId": "schiller-empire",
+          "url": "https://eric.ed.gov/?id=ED060610",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        },
+        {
+          "titleZh": "传播与文化支配",
+          "titleEn": "Communication and Cultural Domination",
+          "year": 1976,
+          "sourceId": "schiller-domination",
+          "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+          "note": "年份为原作首版；来源网页可能展示后续版。"
+        }
+      ],
+      "sourceIds": [
+        "schiller-empire",
+        "schiller-domination",
+        "schiller-eric"
+      ],
+      "relations": [
+        "comparison-schiller"
+      ],
+      "sources": [
+        {
+          "id": "schiller-empire",
+          "title": "Mass Communications and American Empire",
+          "url": "https://eric.ed.gov/?id=ED060610",
+          "kind": "bibliographic_abstract",
+          "verification": "ERIC条目收录1971版本；不把条目年份当首版。"
+        },
+        {
+          "id": "schiller-domination",
+          "title": "Communication and Cultural Domination",
+          "url": "https://www.routledge.com/Communication-and-Cultural-Domination/Schiller/p/book/9780873321136",
+          "kind": "publisher",
+          "verification": "先前已读出版社书目与四章目录，本轮直读403；与ERIC条目交叉核对，未通读全书。"
+        },
+        {
+          "id": "schiller-eric",
+          "title": "Communication and Cultural Domination：书目摘要",
+          "url": "https://eric.ed.gov/?id=ED135024",
+          "kind": "bibliographic_abstract",
+          "verification": "此前已读摘要，本次访问超时；未声称核对全书原文。"
+        }
+      ]
+    }
+  ],
+  "relations": [
+    {
+      "id": "innis-mcluhan",
+      "fromIds": [
+        "innis"
+      ],
+      "toId": "mcluhan",
+      "type": "influence",
+      "label": "思想影响",
+      "explanation": {
+        "text": "伊尼斯的传播史问题构成理解麦克卢汉的重要背景；后者对其观点有所转化，不能当作同一套理论。",
+        "provenance": "later_interpretation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "innis-utp",
+            "url": "https://utpdistribution.com/9781442689275/the-bias-of-communication/",
+            "locator": "Description：Alexander John Watson的导读说明",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      }
+    },
+    {
+      "id": "williams-mcluhan",
+      "fromIds": [
+        "williams"
+      ],
+      "toId": "mcluhan",
+      "type": "critique",
+      "label": "批判／争论",
+      "explanation": {
+        "text": "威廉斯批评以媒介技术本身单向解释社会变化，强调社会形成和使用条件。",
+        "provenance": "original_paraphrase",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "williams-publisher",
+            "url": "https://www.routledge.com/Television-Technology-and-Cultural-Form/Williams/p/book/9781138170759",
+            "locator": "Description；Chapter 4: Programming: Distribution and Flow",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      }
+    },
+    {
+      "id": "influence-postman",
+      "fromIds": [
+        "mcluhan"
+      ],
+      "toId": "postman",
+      "type": "influence",
+      "label": "思想影响／议题延展",
+      "explanation": {
+        "text": "波兹曼将麦克卢汉列为媒介生态奠基思想家之一，并发展公共话语与人文判断问题。",
+        "provenance": "original_paraphrase",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "postman-humanism",
+            "url": "https://www.media-ecology.net/publications/MEA_proceedings/v1/postman01.pdf",
+            "locator": "大会主旨演讲；讨论媒介生态及人文判断",
+            "supports": "该条理论概括或解释"
+          }
+        ]
+      }
+    },
+    {
+      "id": "comparison-castells",
+      "fromIds": [
+        "mcluhan",
+        "williams"
+      ],
+      "toId": "castells",
+      "type": "comparison",
+      "label": "课程性对照：当代研究拓展",
+      "explanation": {
+        "text": "由媒介形式与社会条件的问题连接全球数字网络和传播权力，属于课程组织，不主张直接师承。",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "mcluhan-media",
+            "url": "https://web.mit.edu/allanmc/www/mcluhan.mediummessage.pdf",
+            "locator": "Chapter 1: The Medium is the Message",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "williams-tv",
+            "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+            "locator": "Chapter 1: The Technology and the Society",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "castells-2011",
+            "url": "https://ijoc.org/index.php/ijoc/article/view/1136",
+            "locator": "Abstract：四类权力及programming/switching",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      }
+    },
+    {
+      "id": "comparison-schiller",
+      "fromIds": [
+        "innis",
+        "williams"
+      ],
+      "toId": "schiller",
+      "type": "comparison",
+      "label": "课程性对照：国际传播政治经济视角",
+      "explanation": {
+        "text": "比较传播渠道、社会组织与文化资源控制，属于课程对照，不把席勒归为技术决定论继承者。",
+        "provenance": "teaching_simulation",
+        "isQuotation": false,
+        "citations": [
+          {
+            "sourceId": "innis-bias",
+            "url": "https://www.fadedpage.com/books/20231255/html.php",
+            "locator": "Preface；The Bias of Communication；A Plea for Time",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "williams-tv",
+            "url": "https://bpb-us-e1.wpmucdn.com/sites.psu.edu/dist/3/38094/files/2016/01/Williams-The_Tech_and_The_Society.pdf",
+            "locator": "Chapter 1: The Technology and the Society",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          },
+          {
+            "sourceId": "schiller-eric",
+            "url": "https://eric.ed.gov/?id=ED135024",
+            "locator": "Abstract：跨国文化依赖、机制与传播政策",
+            "supports": "理论依据；不证明虚构案例实际发生"
+          }
+        ]
+      }
+    }
+  ]
+}
